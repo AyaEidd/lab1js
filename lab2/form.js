@@ -72,7 +72,7 @@ function myfun(){
     var user = document.getElementById("userna").value ;
     var pswd = document.getElementById("userpass").value ;
     if(user == "admin" && pswd == "123") {
-        alert("welcome") ;
+        alert("welcome admin") ;
     }
     else{
         alert("not registered") ;
